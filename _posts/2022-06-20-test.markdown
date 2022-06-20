@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Integrating razorpay into your webapp"
+date:   2022-06-20 21:03:36 +0530
+categories: AUTOSAR Adaptive
+---
+소개하는 글을 테스트 합니다.
+
+```javascript
+const Razorpay = require('razorpay');
+let rzp = Razorpay({
+	key_id: 'KEY_ID',
+	secret: 'name'
+});
+// capture request
+rzp.capture(payment_id, cost)
+	.then(function (data) {
+		return 2;
+	})
+```
+
